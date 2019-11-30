@@ -1,0 +1,16 @@
+*Usando margenes:
+margin-top (borde superior)
+margin-right (borde derecho)
+margin-bottom (borde inferior)
+margin-left (borde izquierdo)
+Estas propiedades se llenan con valores en píxeles, porcentajes o em. 
+margin-top: -100px;
+*Usando position:
+relative: El top, bottom, left y right corresponderán a los bordes del elemento y funcionarán igual que margin-top, margin-right, margin-bottom y margin-left. La diferencia principal radica en que el elemento seguirá ocupando el espacio en el que estaba originalmente (si era un cuadrado de 100x100px, pues te quedará un hueco de 100x100px).
+En este codepen, todas las cajas tienen position: relative; y la primera de todas tiene left: -100px; lo cual la mueve hacia la izquierda.
+   
+fixed:  El top, bottom, left y right corresponderán al los bordes de la ventana del explorador, por lo que si pones top: 0px; y left:0px; el elemento estará pegado a la esquina superior izquierda del explorador, y cuando bajes por la página se quedará allí pegadito.
+En este codepen, la carita amarilla al costado tiene position: fixed; y si scrolleas notarás que ella scrollea contigo.
+   
+absolute: El elemento se moverá con respecto a los bordes del primer elemento que le rodee cuyo position no sea static. Es decir, supongamos que le queremos dar un posicionamiento absoluto a una imagen. Esa imagen está dentro de muchas cajas, pero solo una de ellas tiene position: relative; (o fixed, o absolute). En ese caso, si colocas top: 0px; left: 0px; la imagen se pegará al borde superior izquierdo de esa caja en particular.
+En este codepen, los triángulos al costado de cada caja tienen position: absolute; y como cada caja tiene position: relative; al intentar ubicarlos los márgenes serán los bordes de la caja.
