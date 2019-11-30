@@ -1,0 +1,36 @@
+a {
+    color: black;
+    }
+*Propiedades generales:
+olor: Cambia el color del texto. La mejor forma de usarlo es con colores hexadecimales (los que se escriben tipo #000000), aunque también puedes usar RGB (escritos como rgb(valor rojo, valor verde, valor azul)), RBGa (que te permite definir la opacidad además del color y se escribe rgb(valor rojo, valor verde, valor azul, opacidad) con la opacidad siendo un valor entre 0 y 1, por ejemplo 0.5) o mediante nombres de colores. Aquí tienes una paleta para conseguir los números de los colores que quieras en Hexa o RGB.
+   
+font-size: Cambia el tamaño del texto. Se debe colocar el tamaño deseado en píxeles (por ejemplo, font-size: 13px;), puntos (por ejemplo, font-size: 12pt;), porcentajes (por ejemplo, font-size: 10%) o em (en esta medida, 1 equivale al tamaño de fuente por defecto del explorador de quien lo ve). Personalmente, las medidas de píxeles y em son las más cómodas para mí.
+   
+font-family: Determina la fuente del texto. ¡Atención! Sólo puedes usar las fuentes que aparecen en esta lista. Otra opción son las Google Web Fonts, aquí hay un tuto sobre su uso.
+   
+text-align: Alineación del texto. Acepta los valores justify (justificado), right (derecha), left (izquierda) y center (centrado).
+   
+font-weight: Permite hacer que la letra sea más delgada o más gruesa (como negrita). Acepta los valores bold (negrita), bolder (más grueso que negrita) y lighter (más delgada que la letra normal). Si quieres grosores intermedios, podés usar los valores 100, 200, 300, 400, 500, 600, 700, 800 y 900, que son una escala de más fino a más grueso, donde 400 es la letra normal y 700 la negrita.
+   
+font-style: Permite colocar la letra en cursiva. El valor es italic u oblique.
+   
+text-indent: Coloca una sangría al texto. Se mide en píxeles, porcentaje o em.
+*Propiedades especificas:
+text-transform: Permite modificar el estilo de las letras del texto. Los valores son uppercase (todo en mayusculas), capitalize (sólo las primeras letras de las palabras en mayúscula) y lowercase (todo en minúscula).
+   
+font-variant: Permite, mediante el uso del valor small-caps, lograr una mezcla del uppercase con el capitalize. El resultado se ve mas o menos así.
+   
+text-decoration: Permite dar algunos efectos simples al texto. Acepta los valores underline (subrayado), overline (linea sobre el texto), line-through (tachado), blink (texto parpadeante).
+   
+letter-spacing: Permite ajustar el espacio entre letra y letra. Se mide en píxeles, em, porcentajes (por ejemplo letter-spacing: 2px;). Cuando el valor es positivo, las letras se separan. Cuando el valor es negativo, se juntan.
+   
+word-spacing: Permite ajustar el espacio entre palabra y palabra. Se mide en píxeles, em, porcentajes (por ejemplo word-spacing: 2px;). Cuando el valor es positivo, las palabras se separan. Cuando el valor es negativo, se juntan.
+   
+line-height: Define el interlineado del texto. El valor por defecto es un tamaño ligeramente superior al de tu font-size. Si el valor que colocas aquí es más chico que tu font-size, las líneas se juntarán. Si es más grande, se separarán. Se mide en píxeles, em, porcentajes.
+   
+text-shadow: Da una sombra (o brillo, si la haces de color claro) al texto. La sintaxis es:
+
+   text-shadow: XXpx YYpx ZZpx #000000;
+
+   Debes llenar XX con el desplazamiento en el eje X que tendrá tu sombra, YY con el desplazamiento en el eje Y, ZZ con el tamaño de tu sombra y #000000 con el color de sombra deseado.
+   
