@@ -1,0 +1,26 @@
+*Movimientos planos:
+<div id="cajitamovarriba1">Pasa el cursor<div id="cajitamovarriba2">¡Hola! Estaba escondida.</div></div>
+<style type="text/css">#cajitamovarriba1{background:#CBC4B2;width:120px;height:120px;overflow:hidden;} 
+#cajitamovarriba2{background:#899622;width:120px;height:120px;overflow:hidden;position:relative;top:-140px;transition:ease-in-out 0.5s;-webkit-transition:ease-in-out 0.5s;-ms-transition:ease-in-out 0.5s;-moz-transition:ease-in-out 0.5s;} 
+#cajitamovarriba1:hover #cajitamovarriba2{top:-14px;}</style>
+*Zoom o escale:
+<div id="cajitazoom1">Pasa el cursor<div id="cajitazoom2">¡Hola! Estaba escondida.</div></div>
+<style type="text/css">#cajitazoom1{background:#CBC4B2;width:120px;height:120px;overflow:hidden;}
+#cajitazoom2{background:#899622;width:120px;height:120px;overflow:hidden;position:relative;top:-14px;transition:ease-in-out 0.5s;-webkit-transition:ease-in-out 0.5s;-ms-transition:ease-in-out 0.5s;-moz-transition:ease-in-out 0.5s;-webkit-transform: scale(0.2);  -ms-transform: scale(0.2);  -o-transform: scale(0.2);  transform: scale(0.2);opacity:0;}
+#cajitazoom1:hover #cajitazoom2{-webkit-transform: scale(1);  -ms-transform: scale(1);  -o-transform: scale(1);  transform: scale(1);opacity:1;}</style>
+*Rotate:
+<div id="cajitarotate1">Pasa el cursor<div id="cajitarotate2">¡Hola! Estaba escondida.</div></div>
+<style type="text/css">#cajitarotate1{background:#CBC4B2;width:120px;height:120px;overflow:hidden;} 
+#cajitarotate2{background:#899622;width:120px;height:120px;overflow:hidden;position:relative;top:-14px;transition:ease-in-out 0.5s;-webkit-transition:ease-in-out 0.5s;-ms-transition:ease-in-out 0.5s;-moz-transition:ease-in-out 0.5s;transform: rotate(360deg);-ms-transform: rotate(360deg);-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);opacity:0;}
+#cajitarotate1:hover #cajitarotate2{transform: rotate(0deg);-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);opacity:1;}</style>
+*Que sobre una imagen random x al poner el mouse aparezca un cuadrado con texto o algo:
+<div id="caja"><div id="cajota">texto a aparecer<br><a href="link">Link</a></div></div>
+<style type="text/css">#caja{width:200px; height:100px; background:url(urldelaimagen/200x100);overflow:hidden;}
+#cajota{width:88px;background:#000;opacity:.9;height:100px;color:#fff;text-align:center;position:relative;left:-88px;transition:ease-in-out 0.5s;-webkit-transition:ease-in-out 0.5s;-moz-transition:ease-in-out 0.5s;-o-transition:ease-in-out 0.5s;} #caja:hover #cajota{left:0px;}</style>
+*Que sobre un texto al poner el raton aparezca un cuadrado por otro lado monisimo con otro texto:
+<a href="#" class="example1">Holo</a>
+<style type="text/css">.example1{display:inline-block;position:relative;} .example1:hover:before{content: " Holo! ";background:#000;padding:10px; border-radius:5px;text-align:center;color:#fff;position:absolute;top:-40px;opacity:1;}
+.example1:before{content: " Holo! ";background:#000;padding:10px; border-radius:5px;text-align:center;color:#fff;position:absolute;top:-45px;opacity:0;transition:ease-in-out 0.5s;-webkit-transition:ease-in-out 0.5s;-moz-transition:ease-in-out 0.5s;-o-transition:ease-in-out 0.5s;}</style>
+*Que al acercar el raton a un texto la imagen salte:
+<div id="zoomie"><img src="urlimagen300x200"/><span id="texto">Hellous</span></div>
+<style type="text/css">#zoomie{width:300px;height:200px;background:#121212;} #zoomie:hover img{-webkit-transform: scale(0.5);  -ms-transform: scale(0.5);  -o-transform: scale(0.5);top:-20px;} #zoomie img{transform: scale(0.5);position:relative;transition:ease-in-out 0.5s;-webkit-transition:ease-in-out 0.5s;-moz-transition:ease-in-out 0.5s;-o-transition:ease-in-out 0.5s;position:relative;z-index:35;} #texto{display:block;position:relative;height:50px;top:-50px;opacity:.3;z-index:33;text-align:center;transition:ease-in-out 0.5s;-webkit-transition:ease-in-out 0.5s;-moz-transition:ease-in-out 0.5s;-o-transition:ease-in-out 0.5s;} #zoomie:hover #texto{opacity:1;}</style>
