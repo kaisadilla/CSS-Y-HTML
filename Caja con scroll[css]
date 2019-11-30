@@ -1,0 +1,29 @@
+*Creamos una caja:
+<div style="width: ANCHURA; max-height: ALTURA MÁXIMA;">
+Aquí va tu  texto : D
+</div>
+*para que tenga scroll cuando se supere el alto:
+<div style="width: ANCHURA; max-height: ALTURA MAXIMA; overflow: AUTO;">
+*dos tablas una al lado de la otra:
+<table>
+<tr>
+<td style="padding: 10px;">
+<div style="width: 200px; max-height: 200px; overflow: AUTO;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut magna eu nunc malesuada luctus a nec dui. Suspendisse tortor quam, iaculis vel tincidunt vel, ornare eu risus. Sed auctor elementum quam ac gravida. Sed lacus diam, semper nec facilisis a, molestie id purus. Phasellus facilisis ante et tortor tristique in lacinia mi bibendum. Sed scelerisque, diam ut ullamcorper sagittis, lectus felis consectetur leo, id venenatis ante nulla congue nibh. Ut magna ipsum, scelerisque sed viverra non, scelerisque id dolor.
+</div>
+</td>
+<td style="padding: 10px;">
+<div style="width: 200px; max-height: 200px; overflow: AUTO; ">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut magna eu nunc malesuada luctus a nec dui. Suspendisse tortor quam, iaculis vel tincidunt vel, ornare eu risus. Sed auctor elementum quam ac gravida. Sed lacus diam, semper nec facilisis a, molestie id purus. Phasellus facilisis ante et tortor tristique in lacinia mi bibendum. Sed scelerisque, diam ut ullamcorper sagittis, lectus felis consectetur leo, id venenatis ante nulla congue nibh. Ut magna ipsum, scelerisque sed viverra non, scelerisque id dolor.
+</div>
+</td>
+</tr>
+</table>
+*igual pero con divs flotantes
+<div style=" overflow: hidden; width: 450px; background: #ececec;"">
+<div style="width: 200px; max-height: 200px; overflow: AUTO; float: left; padding: 10px;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut magna eu nunc malesuada luctus a nec dui. Suspendisse tortor quam, iaculis vel tincidunt vel, ornare eu risus. Sed auctor elementum quam ac gravida. Sed lacus diam, semper nec facilisis a, molestie id purus. Phasellus facilisis ante et tortor tristique in lacinia mi bibendum. Sed scelerisque, diam ut ullamcorper sagittis, lectus felis consectetur leo, id venenatis ante nulla congue nibh. Ut magna ipsum, scelerisque sed viverra non, scelerisque id dolor.
+</div><div style="width: 200px; max-height: 200px; overflow: AUTO; float: left; padding: 10px;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut magna eu nunc malesuada luctus a nec dui. Suspendisse tortor quam, iaculis vel tincidunt vel, ornare eu risus. Sed auctor elementum quam ac gravida. Sed lacus diam, semper nec facilisis a, molestie id purus. Phasellus facilisis ante et tortor tristique in lacinia mi bibendum. Sed scelerisque, diam ut ullamcorper sagittis, lectus felis consectetur leo, id venenatis ante nulla congue nibh. Ut magna ipsum, scelerisque sed viverra non, scelerisque id dolor.
+</div>
+</div>
