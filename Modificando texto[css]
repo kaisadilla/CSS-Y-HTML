@@ -15,6 +15,11 @@ font-weight: Permite hacer que la letra sea más delgada o más gruesa (como neg
 font-style: Permite colocar la letra en cursiva. El valor es italic u oblique.
    
 text-indent: Coloca una sangría al texto. Se mide en píxeles, porcentaje o em.
+
+font-style: Permite colocar la letra en cursiva. El valor es
+"italic" u "oblique"
+
+
 *Propiedades especificas:
 text-transform: Permite modificar el estilo de las letras del texto. Los valores son uppercase (todo en mayusculas), capitalize (sólo las primeras letras de las palabras en mayúscula) y lowercase (todo en minúscula).
    
@@ -34,3 +39,7 @@ text-shadow: Da una sombra (o brillo, si la haces de color claro) al texto. La s
 
    Debes llenar XX con el desplazamiento en el eje X que tendrá tu sombra, YY con el desplazamiento en el eje Y, ZZ con el tamaño de tu sombra y #000000 con el color de sombra deseado.
    
+text-transform: Permite transformar las letras del texto. Los valores son:
+uppercase, capitalize y lowercase.
+
+font-variant: Permite colocar el texto entre una mezcla de capitalize y uppercase. El valor es small-caps
