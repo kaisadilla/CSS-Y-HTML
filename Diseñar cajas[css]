@@ -1,0 +1,34 @@
+*Crear la caja:
+usar un div, id o claas para contener el contenido y despues llamaremos a dicho mediante una llamada (llamadas css)
+propiedades:
+width: Ancho de la caja. Lo puedes colocar en píxeles (como los hemos venido usando hasta ahora) o en porcentaje (XX%, la caja adoptará ese porcentaje del ancho total del elemento en el que esté inscripto).  Ejemplo »
+   
+height: Alto de la caja. Su valor se coloca de la misma manera que el de width.
+Nota: Si no colocas un alto y ancho predeterminados, la caja se ajustará al alto de su contenido y, de estar desarrollada con un div, ocupará todo el ancho que pueda ocupar.
+   
+background: El fondo de la caja. Puedes colocar un color (a modo hexadecimal, RGB o RBGa como se mencionó en el tuto de texto), o una imagen colocando url(LINK DE LA IMAGEN);
+   
+overflow: Determina qué pasará si el contenido de la caja excede el tamaño de la misma. Si le colocas de valor auto, saldrá una barra desplazadora. Si colocas hidden, se esconderá el contenido que sobre y no se podrá ver. El valor por defecto es visible, y hace que lo que sobre salga para abajo. Ejemplo »
+box-shadow: Permite colocar una sombra a la caja. La sintaxis es igual que la de la sombra para textos:
+
+   box-shadow: XXpx YYpx ZZpx #000000;
+
+Allí reemplazas XX por el desplazamiento en el eje X de tu sombra, YY por el desplazamiento en el eje Y, ZZ por el tamaño de tu sombra y #000000 para el color.
+*Tipos de bordes
+border: Es la propiedad básica para darle un borde sobre todos los lados a un elemento. Su sintáxis es:
+
+   border: XXpx estilo #000000;
+
+   Donde XX es el grosor del borde en píxeles, #000000 debe reemplazarse por el color de borde deseado y estilo debe ser reemplazado por una de las siguientes opciones:
+   Solid: borde solido normal 
+   Dashed: borde solido intercalado
+   Dotted: borde de puntitos
+   Double: doble borde solido
+   Groove: borde solido como con sombra
+   Ridge: igual que el anterior pero diferente
+   indet: igual pero medio y medio
+   outset: como indet pero al reves
+  border puede ser reemplazada por border-top, border-right, border-bottom y border-left (borde superior, derecho, inferior e izquierdo en ese orden) si sólo quieres dar borde a uno o dos lados de la caja, o si quieres darles diferentes estilos.
+  border-radius:  Sirve para redondear los bordes de las cajas. El valor debe darse en píxeles (por ejemplo: border-radius: 20px;), y afectará todas las esquinas de la caja. Si quieres que sólo afecte a determinadas esquinas de la caja, puedes darle cuatro valores, que corresponderán respectivamente a la esquina superior izquierda, esquina superior derecha, esquina inferior derecha y esquina inferior izquierda. 
+  Por ejemplo, si uno colocara border-radius: 20px 60px 45px 6px; a una caja de 200x200px.
+*Padding o border:
