@@ -32,3 +32,13 @@ border: Es la propiedad básica para darle un borde sobre todos los lados a un e
   border-radius:  Sirve para redondear los bordes de las cajas. El valor debe darse en píxeles (por ejemplo: border-radius: 20px;), y afectará todas las esquinas de la caja. Si quieres que sólo afecte a determinadas esquinas de la caja, puedes darle cuatro valores, que corresponderán respectivamente a la esquina superior izquierda, esquina superior derecha, esquina inferior derecha y esquina inferior izquierda. 
   Por ejemplo, si uno colocara border-radius: 20px 60px 45px 6px; a una caja de 200x200px.
 *Padding o border:
+ margen interior que tendrá la caja antes de mostrar el contenido que le des, se agrega hacia afuera de las medidas de la caja; es decir, si la caja mide 200x200 y el padding es de 20px, la caja pasará a medir 240x240px (se sumará 20px por cada lado)
+ padding: XXpx;
+
+Donde XX es el márgen interior de todos los lados de la caja, aunque también se puede utilizar:
+
+   padding XXpx YYpx ZZpx WWpx;
+
+Donde XX es el márgen superior, YY el derecho, ZZ el inferior y WW el izquierdo.
+margin son márgenes exteriores a la caja, transparentes, que te permiten que no salga pegada a otros elementos si así no lo quieres
+Su sintáxis es idéntica a la de padding (sólo que poniendo margin en vez de padding). Si uno coloca margin: auto; el elemento se centrará.
