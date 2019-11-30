@@ -1,0 +1,28 @@
+*Seleccionar elementos por su id
+<div id="elite">Aquí vendrían los botones;)</div>
+id es un atributo HTML que permite dar un nombre a un elemento en el HTML para luego llamarlo en el CSS
+desde el CSS, lo llamarás con el mismo nombre de la siguiente forma:
+#elite {
+    /* aquí el código que quieres que afecte a los elite */
+    }
+*Seleccion de elementos por su clase
+class se aplica precisamente igual que el id, y la única diferencia es que un elemento puede tener más de un class, pero no más de un id,
+recomendable para cosas que se repiten
+<div class="elite">Aquí vendrían los botones;)</div>
+.elite {
+/* aquí el código que quieres que afecte a los elite */
+    }
+*Seleccion de etiquetas
+Si queremos modificar todos los links del foro, tendremos que llamar a todas las etiquetas a.
+a {
+/* aquí el código que quieres que afecte a los links */
+    }
+*Seleccionar elementos dentro de elementos
+elementoContenedor elementoContenido {
+propiedades
+   }
+<div id="caja">
+    <div class="interior"></div>
+    <div class="interior"></div>
+    </div>
+    
