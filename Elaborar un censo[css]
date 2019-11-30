@@ -1,0 +1,31 @@
+*HTML:
+<ul class="nombre">
+<li> titutlo de lo que sea</li>
+<li class="idn">nombren</li>
+</ul>
+*CSS:
+con esto podemos modificar cosas como ancho o color de fondo
+ul.nombreclase{
+propiedades
+}
+Para modificar los elementos del censo usaremos
+ul.nombreclase li{
+propiedades
+}
+Si quieres modificar el encabezado usar:
+ul.nombreclase li:first-child{
+propiedades
+}
+al poner el raton sobre un nombre n se espandira la barra de censo debes hacer eso sobre cada uno de los nombres que tengas:
+ul.nombreclase li.idn:hover{
+border-right: 10px solid red;
+}
+Para que aparezca de forma cool:
+Al elemento:
+ul.nombreclase li{
+transition: all .5s linear;-moz-transition: all .5s linear;-webkit-transition: all .5s linear
+}
+Y para el hover:
+ul.nombreclase li:hover{
+transition: all .5s linear;-moz-transition: all .5s linear;-webkit-transition: all .5s linear
+}
