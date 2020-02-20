@@ -1,0 +1,23 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<div id="test">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/900px-Flag_of_Saudi_Arabia.svg.png" usemap="#workmap"/>
+  <map name="workmap">
+    <area shape="rect" coords="0,0,230,160" alt="Square area" href="allahu-akbar.html" />
+  </map>
+</div>
+<a href="#" class="toggle">Toggle</a>
+
+<style>
+#test { position: relative; }
+#test img {transition: all 1s; }
+#test.active img { transform: scale(0.5); }
+</style>
+
+<script>
+$(function() {
+  $('.toggle').click(function(e) {
+    e.preventDefault();
+    $('#test').toggleClass('active');
+  });
+});
+</script>
